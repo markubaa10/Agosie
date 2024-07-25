@@ -1,0 +1,24 @@
+*body{
+    color: black;
+    background-color: aqua;
+
+}
+
+.image-preview{
+    display: inline-block;
+width: 300px;
+}
+
+image{
+    display: inline-block;
+    width: 300px;
+}
+
+.grid{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    color: rgb(55, 0, 255);
+    grid-column: 3;
+}
